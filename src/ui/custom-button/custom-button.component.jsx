@@ -4,7 +4,6 @@ import './custom-button.component.scss';
 const CustomButton = (props) => (
   <button
     className='button'
-    
     {...props}
   >
   {props.children}

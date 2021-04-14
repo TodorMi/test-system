@@ -1,0 +1,25 @@
+.navigation {
+  height: 56px;
+  width: 100%;
+  background-color: #324fb1;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  justify-content: flex-end;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  width: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.navigation a:hover,
+.navigation a:active,
+.navigation a:active {
+  color: #a0d7eb;
+}
