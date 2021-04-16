@@ -6,7 +6,7 @@ const Test = (props) => (
   <article className="test">
     <h2>{props.title}</h2>
     <div>
-      <div>Въпроси: {props.questions.length}</div>
+      <div>Въпроси: {props.questions}</div>
       <div>Решен: {props.completed} пъти</div>
       <div className="author">От: {props.author}</div>
     </div>

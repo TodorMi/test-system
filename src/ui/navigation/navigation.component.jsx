@@ -4,8 +4,8 @@ import "./navigation.styles.scss";
 
 const NavLinks = (props) => (
   <div className='navigation'>
-    <Link to="/popular">
-      Популярни
+    <Link to="/">
+      Начало
     </Link>
     <Link to="/stats">
       Статистика

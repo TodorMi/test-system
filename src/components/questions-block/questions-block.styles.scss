@@ -1,5 +1,5 @@
 .questions {
-    width: 40%;
+    width: 80%;
     padding: 16px;
     text-align: center;
     border: 1px solid #eee;
@@ -11,6 +11,19 @@
     
 }
 
+.questions2 {
+    width: 100%;
+    padding: 16px;
+    text-align: left;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+   
+    input {
+        width: 100%;
+    }
+}
 .success {
     border: none;
   color: white;
